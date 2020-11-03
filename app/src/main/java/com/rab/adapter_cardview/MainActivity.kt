@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         var price = 2000
         for (i in 1..10) {
             price += i * 10
-            val product = Produk("Nama Produk $i", price)
+            val product = Produk("Nama Produk $i","Harga Rp. $price")
             products.add(product)
         }
 
